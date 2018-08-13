@@ -7,7 +7,8 @@ function convertAddress() {
 
     $.ajax({
         type: 'POST',
-        url: 'http://localhost:4000/parse-address',
+        // url: 'http://localhost:4000/parse-address',
+        url: 'https://fashionvalet-dhl-add-formatter.herokuapp.com/parse-address',
         data: body,
         success: function(data) {
             console.log(JSON.stringify(data));
