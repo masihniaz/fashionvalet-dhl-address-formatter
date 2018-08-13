@@ -29,6 +29,8 @@ Live Demo
 
 Sometimes it might take a little longer to open the demo page, because it's living on a free dyno and it sleeps after 30 minutes of inactivity.
 
+* if running on localhost you have to change the host address in the main.js file to the localhost
+
 
 API Usage
 =========
