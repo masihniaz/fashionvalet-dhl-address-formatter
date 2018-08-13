@@ -1,0 +1,27 @@
+{
+  "name": "fashionvalet",
+  "version": "1.0.0",
+  "description": "An API that converts 1 line address to 3 line address for compatibility with DHL API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Masih Niaz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  },
+  "engines": {
+    "node": "8.9.1"
+  }
+}
