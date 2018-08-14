@@ -19,7 +19,7 @@ To setup the project in your local machine follow the steps below:
 
 1. Install Node JS.
 2. Clone the repository to your machine.
-3. run npm install in the projects root directory.
+3. run ```npm install``` in the projects root directory.
 
 
 Live Demo
@@ -29,7 +29,7 @@ Live Demo
 
 Sometimes it might take a little longer to open the demo page, because it's living on a free dyno and it sleeps after 30 minutes of inactivity.
 
-* if running on localhost you have to change the host address in the main.js file to the localhost
+* if running on localhost you have to change the host address in the ```main.js``` file to "localhost".
 
 
 API Usage
@@ -78,7 +78,7 @@ Integration Test
 
 * Supertest, Mocha and Chai is used for Integration Testing.
 
-To execute the test script, type npm test in the project's root directory.
+To execute the test script, type ```npm test``` in the project's root directory.
 
 
 HOW IT WORKS
