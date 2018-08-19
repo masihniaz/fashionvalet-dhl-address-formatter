@@ -1,4 +1,6 @@
 function convertAddress() {
+    baseURL = window.location.href;
+    console.log('BASE URL: ', baseURL);
     let address = document.getElementById("address").value;
 
     let body = {
@@ -7,8 +9,8 @@ function convertAddress() {
 
     $.ajax({
         type: 'POST',
-        // url: 'http://localhost:4000/parse-address',
-        url: 'https://fashionvalet-dhl-add-formatter.herokuapp.com/parse-address',
+        // url: 'https://fashionvalet-dhl-add-formatter.herokuapp.com/parse-address',
+        url: baseURL + 'parse-address',
         data: body,
         success: function(data) {
             document.getElementById("line1").value = data.address[0];

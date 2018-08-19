@@ -6,10 +6,10 @@ var expect = chai.expect;
     describe('Homepage', function() {
         it('Renders the homepage with status 200 ', function(done) {
             request(app).get('/')
-            .end(function(err, res) {
-            expect(res.statusCode).to.be.equal(200);
-            done();
-            });
+                .end(function(err, res) {
+                    expect(res.statusCode).to.be.equal(200);
+                    done();
+                });
         });
     });
 
